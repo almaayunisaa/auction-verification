@@ -27,6 +27,10 @@ Dataset source: [https://archive.ics.uci.edu/dataset/713/auction+verification](h
 - Model used: K-Nearest Neighbors (KNN)
 - Predicts auction verification outcomes based on auction-related features
 
+## Evaluation
+- F1-score
+- Accuracy
+
 ## Usage
 
 1. Clone this repository
@@ -46,6 +50,10 @@ You can install the requirements with:
 ```bash
 pip install numpy pandas matplotlib scikit-learn
 ```
+## Results
+
+- The KNN model achieved around **93% accuracy** 
+- F1-score model achieved around **60%**
 
 ## License
 
